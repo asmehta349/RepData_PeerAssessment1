@@ -1,7 +1,4 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: html_document
----
+# Reproducible Research: Peer Assessment 1
 
 ### Loading and preprocessing the data
 
@@ -93,6 +90,13 @@ output: html_document
     
     ```r
     library(ggplot2)
+    ```
+    
+    ```
+    ## Use suppressPackageStartupMessages to eliminate package startup messages.
+    ```
+    
+    ```r
     library(scales)
     ```
     + Create a line plot of the average steps by time interval.
