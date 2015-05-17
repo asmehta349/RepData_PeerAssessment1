@@ -89,15 +89,8 @@
     + Load the required libraries for plotting.
     
     ```r
-    library(ggplot2)
-    ```
-    
-    ```
-    ## Use suppressPackageStartupMessages to eliminate package startup messages.
-    ```
-    
-    ```r
-    library(scales)
+    suppressPackageStartupMessages(library(ggplot2))
+    suppressPackageStartupMessages(library(scales))
     ```
     + Create a line plot of the average steps by time interval.
     

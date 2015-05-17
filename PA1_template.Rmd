@@ -71,8 +71,8 @@
     ```
     + Load the required libraries for plotting.
     ```{r, echo = TRUE}
-    library(ggplot2)
-    library(scales)
+    suppressPackageStartupMessages(library(ggplot2))
+    suppressPackageStartupMessages(library(scales))
     ```
     + Create a line plot of the average steps by time interval.
     ```{r, echo = TRUE, fig.width = 12, fig.height = 8}
